@@ -1,0 +1,80 @@
+/* Form.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7dead; /* Light gray background */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text */
+}
+
+h2 {
+  color: #c72914; /* Optional: change color for the title */
+  margin-bottom: 20px;
+  font-size: 2.5em; /* Larger title */
+}
+
+/* Flex container for input and button */
+.input-container {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Center items vertically */
+}
+
+input[type="text"] {
+  width: 600px; /* Wider input field */
+  height: 40px; /* Taller input field */
+  padding: 10px 20px; /* Padding for better spacing */
+  font-size: 18px; /* Larger font size */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 30px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  outline: none; /* Remove outline */
+  transition: border 0.3s; /* Smooth border transition */
+  margin-right: 10px; /* Space between input and button */
+}
+
+
+input[type="text"]:focus {
+  border: 1px solid #fffbcc;/* Blue border on focus */
+}
+
+.download-btn {
+  padding: 15px 30px; /* Padding for the button */
+  font-size: 18px; /* Larger font size */
+  color: white; /* White text color */
+  background-color: #4285f4; /* Google blue color */
+  border: none; /* Remove border */
+  border-radius: 30px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.7s; /* Smooth background transition */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.download-btn:hover {
+  background-color: #cf1b1b; /* Darker blue on hover */
+}
+
+p {
+  margin-top: 20px; /* Space above the message */
+  color: #333; /* Darker text color for the message */
+  font-size: 10px;
+  font-weight:bold;
+  height:30px;
+  width:800px; /* Font size for the message */
+}
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4.5em; /* Adjust the size as needed */
+  color: #333; /* Set the text color */
+  text-align: center; /* Center the text */
+  margin-bottom: 0px; 
+}
